@@ -1,0 +1,37 @@
+{
+  "name": "merge-env",
+  "version": "1.0.0",
+  "description": "An object merging function that has special support for environment variables",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bholloway/merge-env.git"
+  },
+  "keywords": [
+    "environment",
+    "merge",
+    "object",
+    "parse"
+  ],
+  "author": "bholloway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bholloway/merge-env/issues"
+  },
+  "homepage": "https://github.com/bholloway/merge-env",
+  "scripts": {
+    "test": "istanbul cover -x \"test/*.*\" ./test"
+  },
+  "dependencies": {
+    "assert": "^1.3.0",
+    "camelcase": "^2.1.0",
+    "lodash.get": "^4.1.2",
+    "lodash.set": "^4.0.0"
+  },
+  "devDependencies": {
+    "figures": "^1.4.0",
+    "istanbul": "^0.4.2",
+    "jasmine": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0"
+  }
+}
